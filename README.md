@@ -1,19 +1,10 @@
-# Regole Tecniche circa ARGOMENTO DELLE REGOLE TECNICHE
+# Linee Guida per il rilascio dell'identità digitale per uso professionale
 ## Linee Guida AgID ex art. 71 del CAD
 
-Capoverso/i introduttivo/i.
+Le presenti linee guida normano le modalità di rilascio delle identità digitali per uso professionale cui i gestori di identità digitali del sistema SPID devono attenersi. Tali identità digitali sono quelle utili a provare l’appartenenza di una persona fisica all’organizzazione di una persona giuridica e/o la sua qualità di professionista. Le identità in questione, al contrario, non costituiscono prova dei poteri di rappresentanza di una persona giuridica dei quali una persona fisica è eventualmente in possesso né l’appartenenza di un professionista a un determinato ordine professionale o altro elenco qualificato.
 
-Modificare i file `README.md` e il file `index.rst` affinché contengano la descrizione generale delle Linee Guida e, rispettivamente, l'indice dei contenuti del documento, che può puntare ad altri file RST; si consiglia l'uso di un file RST per ciascun documento separato (ad esempio: documento principale più i suoi Allegati). Documenti particolarmente lunghi possono essere suddivisi usando un file RST per ciascun capitolo.
+## Link al documento e consultazione.
 
- * Si consiglia di collocare gli eventuali Articoli o capitoli in una sottocartella `sec/` dedicata.
- * Si consiglia di collocare gli eventuali Allegati in una sottocartella `att/` dedicata.
- * Si consiglia di collocare gli eventuali file multimediali (e.g. immagini, video, ecc.) in sottocartelle di secondo livello, separate per tipologia (e.g. `images/`, `audio/`, ecc.), all'interno di una sottocartella dedicata `media/`.
- * Si consiglia di collocare gli eventuali esempi di codice o documenti elettronici in una sottocartella dedicata `samples/`, eventualmente separati per tipologia mediante sottocartelle di secondo livello.
+Link al documento *Docs Italia*: https://lg-spid-uso-professionale.readthedocs.io
 
-## Link al documento e consultazione
-
-Link al documento *Docs Italia*: https://lg-spid-NOME.readthedocs.io
-
-Link per commenti *Forum Italia*: https://forum.italia.it/c/documenti-in-consultazione/lg-spid-NOME
-
-La consultazione sarà attiva dal GG MESE 20?? al GG MESE 20??.
+Link per commenti *Forum Italia*: https://forum.italia.it/c/documenti-in-consultazione/lg-spid-uso-professionale
