@@ -1,8 +1,8 @@
 document:
   type: Linee guida
-  name: Regole Tecniche per XXXXX
-  short_name: Ll.gg. XXXXXX
-  author: walter-arrighetti
+  name: Linee guida per il rilascio dell’identità digitale per uso professionale
+  short_name: Ll.gg. SPID Pro
+  author: arbiastefano
   contributors:
     - Stefano Arbia
     - Walter Arrighetti
@@ -11,12 +11,12 @@ document:
     - Stefano Ianniello
     - Andrea Spallacci
   description: |
-    Linee Guida contenenti Regole Tecniche circa XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    Linee guida per il rilascio dell’identità digitale SPID ad uso professionale
   tags:
-    - tag1
-    - tag2
-    - tag3
-    - tag4
-    - tag5
-    - QSeal
-  origin: https://github.com/test-lg/NAME-OF-REPOSITORY/
+    - SPID
+    - CAD
+    - P.IVA
+    - IdP
+    - SP
+    - SAML
+  origin: https://github.com/test-lg/lg_SPID_uso-professionale/
