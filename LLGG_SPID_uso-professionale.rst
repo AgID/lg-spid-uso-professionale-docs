@@ -1,7 +1,3 @@
-**Linee guida per**
-
-**il rilascio dell’identità digitale per uso professionale**
-
    **Visti** gli articoli 19 (Istituzione dell’Agenzia per l’Italia
    Digitale), 21 (Organi e statuto), 22 (Soppressione di DigitPA e
    dell’Agenzia per la diffusione delle tecnologie per l’innovazione;
@@ -24,24 +20,22 @@
    amministrazioni e delle imprese.*\ ” pubblicato sulla G.U. Serie
    Generale №285 del 9 dicembre 2014;
 
-   **Espletata** ai sensi dell’articolo 71, comma 1, del CAD la
-   procedura di consultazione pubblica;
+   **Espletata** ai sensi dell’articolo 71, comma 1, del CAD la procedura di consultazione pubblica;
 
-   **Sentito** ai sensi dell’articolo 62, comma 8, del D.lgs. №179/2016,
-   il Commissario straordinario per l’attuazione dell’Agenda digitale;
+   **Sentito** ai sensi dell’articolo 62, comma 8, del D.lgs. №179/2016, il Commissario straordinario per l’attuazione dell’Agenda digitale;
 
-   **Sentite** ai sensi dell’articolo 71, comma 1, del CAD le
-   ammirazioni competenti;
+   **Sentite** ai sensi dell’articolo 71, comma 1, del CAD le amministrazioni competenti;
 
-   **Sentito** ai sensi dell’articolo 71, comma 1, il Garante per la
-   protezione dei dati personali;
+   **Sentito** ai sensi dell’articolo 71, comma 1, il Garante per la protezione dei dati personali;
 
-   **Acquisito** ai sensi dell’articolo 71, comma 1, il parere della
-   Conferenza unificata;
+   **Acquisito** ai sensi dell’articolo 71, comma 1, il parere della Conferenza unificata;
 
-   sono emanate le presenti Linee guida
+sono emanate le presenti Linee guida.
 
-**Ambito di applicazione**
+.. _Art-01:
+
+Ambito di applicazione
+----------------------
 
 1. Le presenti linee guida normano le modalità di rilascio delle
       identità digitali per uso professionale cui i gestori di identità
@@ -57,12 +51,12 @@
 2. Nel caso in cui il gestore dell’identità digitale deleghi
       all’organizzazione l’attività di verifica dell’identità digitale
       per il rilascio dell’identità digitale uso professionale per la
-      persona giuridica, sono applicabili anche gli articoli dal 6 al
-      13.
+      persona giuridica, sono applicabili anche gli articoli dal 6 al 13.
 
-.. _section-1:
+.. _Art-02:
 
-**Definizioni generali**
+Definizioni generali
+--------------------
 
 1. Ai fini del presente provvedimento si intende per:
 
@@ -101,9 +95,10 @@
 Si applicano inoltre le definizioni di cui al DPCM 24 ottobre 2014 e
 s.m.i..
 
-.. _section-2:
+.. _Art-03:
 
-**Modalità di rilascio**
+Modalità di rilascio
+--------------------
 
 1. Al fine di rilasciare l’\ *identità* *digitale uso professionale
    della persona fisica*, il gestore dell’identità deve verificare
@@ -142,9 +137,10 @@ s.m.i..
    preventivamente sottoposte dal gestore dell’identità ad AgID per
    l’approvazione.
 
-.. _section-3:
+.. _Art-04:
 
-**Rapporti fra le parti**
+Rapporti fra le parti
+---------------------
 
 1. Fermo restando il rispetto della normativa vigente in materia, le
    condizioni per la fornitura dell’identità digitale uso professionale
@@ -154,9 +150,10 @@ s.m.i..
    l’\ *IdP* verifica l’esistenza della persona giuridica, che il
    firmatario abbia adeguati poteri e la sua identità.
 
-.. _section-4:
+.. _Art-05:
 
-**Attributo non professionale**
+Attributo non professionale
+---------------------------
 
 1. L’\ *identità* *digitale uso professionale* contiene
    l’attributo-estensione Purpose valorizzato come **P**.
@@ -173,25 +170,23 @@ s.m.i..
    digitale uso professionale*, inserisce la seguente estensione SAML
    nell’\ *authentication request*:
 
-<samlp:Extensions
+.. admonition:: exmaple
+  :class: admonition-example display-page
 
-xmlns:spid="https://spid.gov.it/saml-extensions">
-
-*[*\ …\ *]*
-
-<spid:Purpose>**P**\ </spid:Purpose>
-
-*[*\ …\ *]*
-
-</samlp:Extensions>
+  .. code-block:: xml
+    <samlp:Extensions
+      xmlns:spid="https://spid.gov.it/saml-extensions">
+        <spid:Purpose>**P**\ </spid:Purpose>
+    </samlp:Extensions>
 
 L’IdP consente il processo di autenticazione con *identità digitale uso
 professionale* esclusivamente se la richiesta di autenticazione contiene
 tale estensione.
 
-.. _section-5:
+.. _Art-06:
 
-**Ulteriori definizioni**
+Ulteriori definizioni
+---------------------
 
 1. Negli articoli che seguono si intende per:
 
@@ -213,10 +208,10 @@ tale estensione.
 
 Si applicano, inoltre, le definizioni di cui all’articolo 2.
 
-.. _section-6:
+.. _Art-07:
 
-**Condizioni per la delega della funzione di verifica dell’identità
-dell’organizzazione**
+Condizioni per la delega della funzione di verifica dell’identità dell’organizzazione
+-------------------------------------------------------------------------------------
 
 1. Il gestore dell’identità digitale SPID che demanda ad una
    *organizzazione* la verifica dell’identità dei soggetti cui fornire
@@ -283,9 +278,10 @@ dell’organizzazione**
          rilascio, nonché quelle cui sono state rilasciate tutte le
          utenze di gestione e dell’utenza di governo attualmente attive.
 
-.. _section-7:
+.. _Art-08:
 
-**Rapporti fra le parti**
+Rapporti fra le parti
+---------------------
 
 1. Prima di sottoscrivere l’atto che regola il rapporto fra le parti,
    l’\ *IdP* deve verificare la reale esistenza del soggetto giuridico
@@ -308,9 +304,10 @@ dell’organizzazione**
    c. il nominativo e i recapiti dei rispettivi responsabili del
          rapporto.
 
-.. _section-8:
+.. _Art-09:
 
-**Rilascio e funzioni dell’utenza di governo e di gestione**
+Rilascio e funzioni dell’utenza di governo e di gestione
+--------------------------------------------------------
 
 1. Le *utenze di governo e di gestione* sono rilasciabili dall’IdP ai
    soggetti per i quali sia stata ottenuta l’autorizzazione ai sensi
@@ -363,9 +360,10 @@ dell’organizzazione**
    h. visualizzare l’elenco dei soggetti per i quali ha effettuato la
          verifica dell’identità e la data della stessa.
 
-.. _section-9:
+.. _Art-10:
 
-**Token di autorizzazione**
+Token di autorizzazione
+-----------------------
 
 1. Il *token di autorizzazione* è il risultato dell’algoritmo di hash
       SHA-256 della stringa di dati contenente i dati personali del
@@ -375,11 +373,17 @@ dell’organizzazione**
       controllo* di cui al precedente art. 9, comma 3, lettera b). Il
       contenuto di tale stringa è il seguente:
 
-*nome*\ **\_**\ *cognome*\ **\_**\ *codiceFiscale*\ **\_**\ *numeroDocumento*\ **\_**\ *indirizzoMail*\ **\_**\ *numeroCellulare*\ **\_**\ *token*\ **\_**\ *codiceControllo*
+.. admonition:: exmaple
+  :class: admonition-example display-page
 
-.. _section-10:
+  .. code-block::
+    nome_cognome_codiceFiscale_numeroDocumento_indirizzoMail_numeroCellulare_token_codiceControllo 
 
-**Sistema di gestione**
+
+.. _Art-11:
+
+Sistema di gestione
+-------------------
 
 1. Il *sistema di gestione* è realizzato a cura degli IdP, reso
    accessibile ai *gestori*, realizza le funzionalità di cui all’art. 9
@@ -416,9 +420,10 @@ dell’organizzazione**
     accedute dai *gestori* previa autenticazione con credenziali senza
     particolari privilegi (*non* Administrator/root)
 
-.. _section-11:
+.. _Art-12:
 
-**Rilascio dell’identità**
+Rilascio dell’identità
+----------------------
 
 1. Al fine di ottenere l’\ *identità digitale per uso professionale per
       la persona giuridica*, l’interessato, dopo essere stato
@@ -441,19 +446,22 @@ dell’organizzazione**
          dall’interessato all’\ *utente di governo* una comunicazione in
          cui si informa di aver rilasciato l’identità digitale.
 
-.. _section-12:
+.. _Art-13:
 
-**Livello delle credenziali dei gestori**
+Livello delle credenziali dei gestori
+-------------------------------------
 
 1. Le credenziali SPID rilasciate ai gestori sono di livello pari o
    superiore alle credenziali delle *identità digitali per uso
    professionale per la persona giuridica* rilasciabili ai sensi
    dell’art. 12.
 
-.. _section-13:
+.. _Art-14:
 
-**Entrata in vigore**
+Entrata in vigore
+-----------------
 
 1. Al fine di consentire ai fornitori di servizi SPID e ai gestori di
    identità digitale di predisporre quanto necessario, il presente
    provvedimento entra in vigore a decorrere dal 1 febbraio 2020.
+
