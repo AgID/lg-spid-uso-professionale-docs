@@ -60,40 +60,45 @@ Definizioni generali
 
 1. Ai fini del presente provvedimento si intende per:
 
-   a. *identità digitale uso professionale*: identità digitale SPID
-         contenente un attributo che dichiara tale caratteristica;
+.. glossary::
 
-   b. *identità digitale uso professionale della persona fisica*:
-         identità digitale che contiene gli attributi della persona
-         fisica cui sono state rilasciate le credenziali di
-         autenticazione;
+   identità digitale uso professionale
+      identità digitale SPID contenente un attributo che dichiara tale caratteristica;
 
-   c. *identità digitale uso professionale per la persona giuridica*:
-         identità digitale che contiene gli attributi della persona
-         giuridica e della persona fisica cui sono state rilasciate le
-         credenziali di autenticazione;
+   identità digitale uso professionale della persona fisica
+      identità digitale che contiene gli attributi della persona
+      fisica cui sono state rilasciate le credenziali di
+      autenticazione;
 
-   d. *DPCM*: il DPCM 24 ottobre 2014 recante *Definizione delle
-         caratteristiche del sistema pubblico per la gestione
-         dell’identità digitale di cittadini e imprese (SPID), nonché
-         dei tempi e delle modalità di adozione del sistema SPID da
-         parte delle pubbliche amministrazioni e delle imprese*;
+   identità digitale uso professionale per la persona giuridica
+      identità digitale che contiene gli attributi della persona
+      giuridica e della persona fisica cui sono state rilasciate le
+      credenziali di autenticazione;
 
-   e. *RGPD*: Regolamento (UE) №679/2016 del Parlamento europeo e del
-         Consiglio, del 27 aprile 2016;
+   DPCM:
+      il DPCM 24 ottobre 2014 recante *Definizione delle
+      caratteristiche del sistema pubblico per la gestione
+      dell’identità digitale di cittadini e imprese (SPID), nonché
+      dei tempi e delle modalità di adozione del sistema SPID da
+      parte delle pubbliche amministrazioni e delle imprese*;
 
-   f. *IdP*: gestore dell’identità digitale SPID;
+   RGPD
+      Regolamento (UE) №679/2016 del Parlamento europeo e del Consiglio, del 27 aprile 2016;
 
-   g. *organizzazione*: la persona giuridica che stipula un accordo con
-         un IdP al fine del rilascio delle identità digitali di cui alla
-         precedente lettera c) in favore di soggetti che agiscono in
-         qualità di dipendenti o, comunque, a nome o per conto
-         dell’organizzazione stessa;
+   IdP
+      gestore dell’identità digitale SPID;
 
-   h. *SP*: fornitore di servizi nell’ambito della federazione SPID.
+   organizzazione
+      la persona giuridica che stipula un accordo con
+      un IdP al fine del rilascio delle identità digitali di cui alla
+      precedente lettera c) in favore di soggetti che agiscono in
+      qualità di dipendenti o, comunque, a nome o per conto
+      dell’organizzazione stessa;
 
-Si applicano inoltre le definizioni di cui al DPCM 24 ottobre 2014 e
-s.m.i..
+   SP
+      fornitore di servizi nell’ambito della federazione SPID.
+
+Si applicano inoltre le definizioni di cui al DPCM 24 ottobre 2014 e s.m.i..
 
 .. _Art-03:
 
