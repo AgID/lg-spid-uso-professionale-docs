@@ -131,8 +131,7 @@ Modalità di rilascio
 
    a. verificare l’identità personale della persona fisica richiedente;
 
-   b. verificare che il richiedente abbia titolo per richiedere
-         l’\ *identità digitale per la persona giuridica*;
+   b. verificare che il richiedente abbia titolo per richiedere l’\ *identità digitale per la persona giuridica*;
 
 3. La verifica di cui ai precedenti commi 1 e 2 lettera a) è effettuata
    con le modalità e i controlli previsti dalla normativa vigente in
@@ -175,7 +174,7 @@ Attributo non professionale
    digitale uso professionale*, inserisce la seguente estensione SAML
    nell’\ *authentication request*:
 
-.. admonition:: exmaple
+.. admonition:: example
   :class: admonition-example display-page
 
   .. code-block:: xml
@@ -195,21 +194,25 @@ Ulteriori definizioni
 
 1. Negli articoli che seguono si intende per:
 
-   a. *utenza di governo*: *identità digitale uso professionale per la
+   .. glossary:
+      utenza di governo
+         *identità digitale uso professionale per la
          persona giuridica* abilitata per l’accesso al *sistema di
          gestione* delle identità;
 
-   b. *utente di governo*: uno o più soggetti dotati di *utenza di
-         governo*;
+      utente di governo
+         uno o più soggetti dotati di *utenza di governo*;
 
-   c. *utenza di gestione*: *identità digitale uso professionale per la
-         persona giuridica* abilitata per l’accesso al *sistema di
-         gestione* delle identità;
+   utenza di gestione
+      identità digitale uso professionale per la
+      persona giuridica* abilitata per l’accesso al *sistema di
+      gestione* delle identità;
 
-   d. *utente di gestione*: uno o più soggetti dotati di *utenza di
-         gestione*;
+   utente di gestione
+      uno o più soggetti dotati di *utenza di gestione*;
 
-   e. *gestori*: i soggetti dotati di *utenze di governo o di gestione*.
+   gestori
+      i soggetti dotati di *utenze di governo o di gestione*.
 
 Si applicano, inoltre, le definizioni di cui all’articolo 2.
 
