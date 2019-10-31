@@ -38,20 +38,20 @@ Ambito di applicazione
 ----------------------
 
 1. Le presenti linee guida normano le modalità di rilascio delle
-      identità digitali per uso professionale cui i gestori di identità
-      digitali del sistema SPID devono attenersi. Tali identità digitali
-      sono quelle utili a provare l’appartenenza di una persona fisica
-      all’organizzazione di una persona giuridica e/o la sua qualità di
-      professionista. Le identità in questione, al contrario, non
-      costituiscono prova dei poteri di rappresentanza di una persona
-      giuridica dei quali una persona fisica è eventualmente in possesso
-      né l’appartenenza di un professionista a un determinato ordine
-      professionale o altro elenco qualificato.
+   identità digitali per uso professionale cui i gestori di identità
+   digitali del sistema SPID devono attenersi. Tali identità digitali
+   sono quelle utili a provare l’appartenenza di una persona fisica
+   all’organizzazione di una persona giuridica e/o la sua qualità di
+   professionista. Le identità in questione, al contrario, non
+   costituiscono prova dei poteri di rappresentanza di una persona
+   giuridica dei quali una persona fisica è eventualmente in possesso
+   né l’appartenenza di un professionista a un determinato ordine
+   professionale o altro elenco qualificato.
 
 2. Nel caso in cui il gestore dell’identità digitale deleghi
-      all’organizzazione l’attività di verifica dell’identità digitale
-      per il rilascio dell’identità digitale uso professionale per la
-      persona giuridica, sono applicabili anche gli articoli dal 6 al 13.
+   all’organizzazione l’attività di verifica dell’identità digitale
+   per il rilascio dell’identità digitale uso professionale per la
+   persona giuridica, sono applicabili anche gli articoli dal 6 al 13.
 
 .. _Art-02:
 
