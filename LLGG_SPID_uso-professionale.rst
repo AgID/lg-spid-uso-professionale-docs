@@ -32,8 +32,7 @@
 
 sono emanate le presenti Linee guida.
 
-.. _Art-01:
-
+.. _`art.01`:
 Ambito di applicazione
 ----------------------
 
@@ -53,8 +52,7 @@ Ambito di applicazione
    per il rilascio dell’identità digitale uso professionale per la
    persona giuridica, sono applicabili anche gli articoli dal 6 al 13.
 
-.. _Art-02:
-
+.. _`art.02`:
 Definizioni generali
 --------------------
 
@@ -75,12 +73,8 @@ Definizioni generali
       giuridica e della persona fisica cui sono state rilasciate le
       credenziali di autenticazione;
 
-   DPCM:
-      il DPCM 24 ottobre 2014 recante *Definizione delle
-      caratteristiche del sistema pubblico per la gestione
-      dell’identità digitale di cittadini e imprese (SPID), nonché
-      dei tempi e delle modalità di adozione del sistema SPID da
-      parte delle pubbliche amministrazioni e delle imprese*;
+   DPCM
+      il DPCM 24 ottobre 2014 recante *Definizione delle caratteristiche del sistema pubblico per la gestione dell’identità digitale di cittadini e imprese (SPID), nonché dei tempi e delle modalità di adozione del sistema SPID da parte delle pubbliche amministrazioni e delle imprese*;
 
    RGPD
       Regolamento (UE) №679/2016 del Parlamento europeo e del Consiglio, del 27 aprile 2016;
@@ -91,7 +85,7 @@ Definizioni generali
    organizzazione
       la persona giuridica che stipula un accordo con
       un IdP al fine del rilascio delle identità digitali di cui alla
-      precedente lettera c) in favore di soggetti che agiscono in
+      precedente lettera c in favore di soggetti che agiscono in
       qualità di dipendenti o, comunque, a nome o per conto
       dell’organizzazione stessa;
 
@@ -100,8 +94,7 @@ Definizioni generali
 
 Si applicano inoltre le definizioni di cui al DPCM 24 ottobre 2014 e s.m.i..
 
-.. _Art-03:
-
+.. _`art.03`:
 Modalità di rilascio
 --------------------
 
@@ -133,16 +126,15 @@ Modalità di rilascio
 
    b. verificare che il richiedente abbia titolo per richiedere l’\ *identità digitale per la persona giuridica*;
 
-3. La verifica di cui ai precedenti commi 1 e 2 lettera a) è effettuata
+3. La verifica di cui ai precedenti commi 1 e 2 lettera a è effettuata
    con le modalità e i controlli previsti dalla normativa vigente in
    materia di rilascio dell’identità digitale della persona fisica.
 
-4. La verifica di cui al comma 2, lettera b) è effettuata con modalità
+4. La verifica di cui al comma 2, lettera b è effettuata con modalità
    preventivamente sottoposte dal gestore dell’identità ad AgID per
    l’approvazione.
 
-.. _Art-04:
-
+.. _`art.04`:
 Rapporti fra le parti
 ---------------------
 
@@ -154,13 +146,12 @@ Rapporti fra le parti
    l’\ *IdP* verifica l’esistenza della persona giuridica, che il
    firmatario abbia adeguati poteri e la sua identità.
 
-.. _Art-05:
-
+.. _`art.05`:
 Attributo non professionale
 ---------------------------
 
 1. L’\ *identità* *digitale uso professionale* contiene
-   l’attributo-estensione Purpose valorizzato come **P**.
+   l’attributo-estensione :code:`<Purpose>` valorizzato come ``P``.
 
 6. L’attributo oggetto del presente articolo consente ai fornitori di
    servizi SPID di regolare l’accesso ai servizi dedicati a
@@ -174,34 +165,28 @@ Attributo non professionale
    digitale uso professionale*, inserisce la seguente estensione SAML
    nell’\ *authentication request*:
 
-.. admonition:: example
-  :class: admonition-example display-page
-
-  .. code-block:: xml
-    <samlp:Extensions
-      xmlns:spid="https://spid.gov.it/saml-extensions">
-        <spid:Purpose>**P**\ </spid:Purpose>
-    </samlp:Extensions>
+   .. code-block:: xml
+      <samlp:Extensions
+            xmlns:spid="https://spid.gov.it/saml-extensions">
+          <spid:Purpose>P</spid:Purpose>
+      </samlp:Extensions>
 
 L’IdP consente il processo di autenticazione con *identità digitale uso
 professionale* esclusivamente se la richiesta di autenticazione contiene
 tale estensione.
 
-.. _Art-06:
-
+.. _`art.06`:
 Ulteriori definizioni
 ---------------------
 
 1. Negli articoli che seguono si intende per:
 
-   .. glossary:
-      utenza di governo
-         *identità digitale uso professionale per la
-         persona giuridica* abilitata per l’accesso al *sistema di
-         gestione* delle identità;
+   utenza di governo
+      *identità digitale uso professionale per la persona giuridica*
+      abilitata per l’accesso al *sistema di gestione* delle identità;
 
-      utente di governo
-         uno o più soggetti dotati di *utenza di governo*;
+   utente di governo
+      uno o più soggetti dotati di *utenza di governo*;
 
    utenza di gestione
       identità digitale uso professionale per la
@@ -214,16 +199,15 @@ Ulteriori definizioni
    gestori
       i soggetti dotati di *utenze di governo o di gestione*.
 
-Si applicano, inoltre, le definizioni di cui all’articolo 2.
+Si applicano, inoltre, le definizioni di cui all’:ref:`articolo 2 <art.02>`.
 
-.. _Art-07:
-
+.. _`art.07`:
 Condizioni per la delega della funzione di verifica dell’identità dell’organizzazione
 -------------------------------------------------------------------------------------
 
 1. Il gestore dell’identità digitale SPID che demanda ad una
    *organizzazione* la verifica dell’identità dei soggetti cui fornire
-   l’\ *identità digitale uso professionale per la persona giuridica,*
+   l’\ *identità digitale uso professionale per la persona giuridica*,
    deve:
 
    a. formalizzare l’impegno da parte dell’\ *organizzazione* al
@@ -286,8 +270,7 @@ Condizioni per la delega della funzione di verifica dell’identità dell’orga
          rilascio, nonché quelle cui sono state rilasciate tutte le
          utenze di gestione e dell’utenza di governo attualmente attive.
 
-.. _Art-08:
-
+.. _`art.08`:
 Rapporti fra le parti
 ---------------------
 
@@ -312,16 +295,15 @@ Rapporti fra le parti
    c. il nominativo e i recapiti dei rispettivi responsabili del
          rapporto.
 
-.. _Art-09:
-
+.. _`art.09`:
 Rilascio e funzioni dell’utenza di governo e di gestione
 --------------------------------------------------------
 
 1. Le *utenze di governo e di gestione* sono rilasciabili dall’IdP ai
    soggetti per i quali sia stata ottenuta l’autorizzazione ai sensi
-   dell’art. 8, comma 2, lettera a) che dimostrano la propria identità
-   ai sensi della normativa vigente in materia di rilascio dell’identità
-   digitale SPID.
+   dell’:ref:`art. 8 <art.08>`, comma 2, lettera a che dimostrano la
+   propria identità ai sensi della normativa vigente in materia di
+   rilascio dell’identità digitale SPID.
 
 2. L’\ *utenza di governo* è utilizzabile per l’accesso al *sistema di
    gestione* al fine di:
@@ -339,28 +321,28 @@ Rilascio e funzioni dell’utenza di governo e di gestione
          indicandone il codice fiscale e l’indirizzo di posta
          elettronica del soggetto;
 
-   d. visualizzare l’elenco di cui alla precedente lettera c) con
+   d. visualizzare l’elenco di cui alla precedente lettera c con
          possibilità di revoca.
 
 3. L’\ *utenza di gestione* è utilizzabile per l’accesso al sistema di
    gestione al fine di:
 
-   e. visualizzare l’elenco di cui al precedente comma 2 lettera c);
+   e. visualizzare l’elenco di cui al precedente comma 2 lettera c;
 
    f. inserire i dati identificativi del soggetto per il quale si sta
          operando la verifica dell’identità a condizione che tale
          soggetto sia nell’elenco di cui al precedente comma 2 lettera
-         c). I dati da inserire sono: nome, cognome, data e luogo di
+         c. I dati da inserire sono: nome, cognome, data e luogo di
          nascita, sesso, codice fiscale, numero seriale della Tessera
          Sanitaria ovvero della Tessera del Codice Fiscale, tipo e
          numero del documento di riconoscimento, numero di cellulare con
-         prefisso preceduto dal carattere “+” (es. +39123456789), un
+         prefisso preceduto dal carattere “``+``” (es. `+39123456789`), un
          numero di almeno tre cifre (*codice di controllo*) scelte dal
          soggetto. Tale numero non può essere costituito da tre numeri
          identici. Sono ammessi i seguenti documenti di riconoscimento:
          carta di identità, passaporto, patente. L’indirizzo di posta
          elettronica del soggetto è quello fornito al comma 2, lettera
-         c) e non è modificabile dall’u\ *tente di gestione*.
+         c e non è modificabile dall’\ *utente di gestione*.
 
    g. dichiarare di aver ottemperato alla verifica dell’identità del
          soggetto in ottemperanza alla procedura prevista;
@@ -368,8 +350,7 @@ Rilascio e funzioni dell’utenza di governo e di gestione
    h. visualizzare l’elenco dei soggetti per i quali ha effettuato la
          verifica dell’identità e la data della stessa.
 
-.. _Art-10:
-
+.. _`art.10`:
 Token di autorizzazione
 -----------------------
 
@@ -378,8 +359,8 @@ Token di autorizzazione
       soggetto cui rilasciare l’\ *identità digitale uso professionale
       per la persona giuridica*, un *token* costituito da una stringa
       alfanumerica casuale di cinque caratteri e il *codice di
-      controllo* di cui al precedente art. 9, comma 3, lettera b). Il
-      contenuto di tale stringa è il seguente:
+      controllo* di cui al precedente :ref:`art. 9 <art.09>`,
+      comma 3, lettera b. Il contenuto di tale stringa è il seguente:
 
 .. admonition:: exmaple
   :class: admonition-example display-page
@@ -388,13 +369,12 @@ Token di autorizzazione
     nome_cognome_codiceFiscale_numeroDocumento_indirizzoMail_numeroCellulare_token_codiceControllo 
 
 
-.. _Art-11:
-
+.. _`art.11`:
 Sistema di gestione
 -------------------
 
 1. Il *sistema di gestione* è realizzato a cura degli IdP, reso
-   accessibile ai *gestori*, realizza le funzionalità di cui all’art. 9
+   accessibile ai *gestori*, realizza le funzionalità di cui all’:ref:`art. 9 <art.09>`
    commi 2 e 3, garantendo la netta separazione dei ruoli.
 
 10. Il *sistema di gestione* deve garantire:
@@ -407,65 +387,61 @@ Sistema di gestione
           loro collocazione temporale e la loro conservazione per il
           periodo di cui all’art. 7, comma 8, del DPCM;
 
-    f. l’impossibilità per l’\ *IdP* di accedere ai dati di cui all’art.
-          9, comma 3, lettera b).
+    f. l’impossibilità per l’\ *IdP* di accedere ai dati di cui
+          all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
 
 11. Il *sistema di gestione*, a seguito della dichiarazione di cui
-    all’art. 9, comma 3, lettera c):
+    all’\ :ref:`art. 9 <art.09>`, comma 3, lettera c:
 
     g. invia al titolare il *token* via sms o via email;
 
     h. rende disponibile all’IdP il *token* *di autorizzazione*
           all’emissione dell’identità digitale e, al buon esito
           dell’operazione, distrugge il *codice di controllo* di cui
-          all’art. 9, comma 3, lettera b).
+          all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
 
 12. L’\ *organizzazione* deve garantire adeguata protezione delle
     stazioni di lavoro utilizzate per accedere al *sistema di gestione*
     adeguandosi quantomeno a quanto prescritto dalla Circolare №2/2017
-    del 28 aprile 2017 recante “\ *Misure minime di sicurezza ict per le
-    pubbliche amministrazioni.*\ ” Dette stazioni di lavoro sono
+    del 28 aprile 2017 recante “*Misure minime di sicurezza ict per le
+    pubbliche amministrazioni*”. Dette stazioni di lavoro sono
     accedute dai *gestori* previa autenticazione con credenziali senza
-    particolari privilegi (*non* Administrator/root)
+    particolari privilegi (*non* `Administrator`/`root`).
 
-.. _Art-12:
-
+.. _`art.12`:
 Rilascio dell’identità
 ----------------------
 
-1. Al fine di ottenere l’\ *identità digitale per uso professionale per
-      la persona giuridica*, l’interessato, dopo essere stato
-      autorizzato dall’\ *utente di gestione*:
+1. Al fine di ottenere l’\ *identità digitale per uso professionale per la persona giuridica*,
+      l’interessato, dopo essere stato autorizzato dall’\ *utente di gestione*:
 
    a. accede al servizio di rilascio dell’identità reso disponibile
          dall’\ *IdP* su canale protetto su cui inserisce il *token*
-         ricevuto ai sensi dell’art. 11, comma 3, lettera a), i dati
-         personali e il *codice di controllo* di cui all’art. 9, comma
-         3, lettera b);
+         ricevuto ai sensi dell’:ref:`art. 11 <art.11>`, comma 3, lettera a,
+         i dati personali e il *codice di controllo* di cui all’:ref:`art. 9 <art.09>`,
+         comma 3, lettera b;
 
    b. il servizio di rilascio dell’identità dell’\ *IdP*, dopo aver
          ricalcolato il *token di autorizzazione* con i dati inseriti
          dall’interessato e averne verificata la corrispondenza con
-         quanto ricevuto dal *sistema di gestione* ai sensi dell’art.
-         11, comma 3, lettera b), provvede a rilasciare l’identità
+         quanto ricevuto dal *sistema di gestione* ai sensi dell’:ref:`art. 11 <art.11>`,
+         comma 3, lettera b, provvede a rilasciare l’identità
          digitale inviando almeno una delle credenziali SPID via sms o
-         email ai recapiti ottenuti ai sensi della precedente lettera
-         a). In ogni caso, invia all’indirizzo email dichiarato
-         dall’interessato all’\ *utente di governo* una comunicazione in
-         cui si informa di aver rilasciato l’identità digitale.
+         email ai recapiti ottenuti ai sensi della precedente lettera a.
+         In ogni caso, invia all’indirizzo email dichiarato dall’interessato
+         all’\ *utente di governo* una comunicazione in cui si informa di
+         aver rilasciato l’identità digitale.
 
-.. _Art-13:
-
+.. _`art.13`:
 Livello delle credenziali dei gestori
 -------------------------------------
 
 1. Le credenziali SPID rilasciate ai gestori sono di livello pari o
    superiore alle credenziali delle *identità digitali per uso
    professionale per la persona giuridica* rilasciabili ai sensi
-   dell’art. 12.
+   dell’:ref:`art. 12 <art.12>`.
 
-.. _Art-14:
-
+.. _`art.14`:
 Entrata in vigore
 -----------------
 
@@ -473,3 +449,7 @@ Entrata in vigore
    identità digitale di predisporre quanto necessario, il presente
    provvedimento entra in vigore a decorrere dal 1 febbraio 2020.
 
+
+.. forum_italia::
+   :topic_id: 6
+   :scope: document
