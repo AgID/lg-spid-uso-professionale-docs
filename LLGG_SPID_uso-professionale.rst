@@ -166,6 +166,7 @@ Attributo non professionale
    estensione SAML nell’\ *authentication request*:
 
 .. code-block:: xml
+
    <samlp:Extensions xmlns:spid="https://spid.gov.it/saml-extensions">
        <spid:Purpose>P</spid:Purpose>
    </samlp:Extensions>
