@@ -150,19 +150,26 @@ Rapporti fra le parti
 Attributo non professionale
 ---------------------------
 
-1. L’\ *identità* *digitale uso professionale* contiene l’attributo-estensione :code:`<Purpose>` valorizzato come ``P``.
+1. L’\ *identità* *digitale uso professionale* contiene
+   l’attributo-estensione :code:`<Purpose>` valorizzato come ``P``.
 
-6. L’attributo oggetto del presente articolo consente ai fornitori di servizi SPID di regolare l’accesso ai servizi dedicati a professionisti e a persone giuridiche.
+6. L’attributo oggetto del presente articolo consente ai fornitori
+   di servizi SPID di regolare l’accesso ai servizi dedicati a
+   professionisti e a persone giuridiche.
 
-7. Resta in carico ai fornitori dei servizi SPID la definizione del livello di autorizzazione associato alla persona fisica risultante dall’\ *identità digitale uso professionale*.
+7. Resta in carico ai fornitori dei servizi SPID la definizione del
+   livello di autorizzazione associato alla persona fisica
+   risultante dall’\ *identità digitale uso professionale*.
 
-8. L’SP che intende far autenticare un soggetto con l’\ *identità digitale uso professionale*, inserisce la seguente estensione SAML nell’\ *authentication request*:
+8. L’SP che intende far autenticare un soggetto con
+   l’\ *identità digitale uso professionale*, inserisce la seguente
+   estensione SAML nell’\ *authentication request*:
 
-   .. code-block:: xml
-      <samlp:Extensions
-            xmlns:spid="https://spid.gov.it/saml-extensions">
-          <spid:Purpose>P</spid:Purpose>
-      </samlp:Extensions>
+.. code-block:: xml
+   <samlp:Extensions
+         xmlns:spid="https://spid.gov.it/saml-extensions">
+       <spid:Purpose>P</spid:Purpose>
+   </samlp:Extensions>
 
 L’IdP consente il processo di autenticazione con *identità digitale uso
 professionale* esclusivamente se la richiesta di autenticazione contiene
@@ -206,64 +213,64 @@ Condizioni per la delega della funzione di verifica dell’identità dell’orga
    deve:
 
    a. formalizzare l’impegno da parte dell’\ *organizzazione* al
-         rispetto di tutti gli obblighi di legge derivanti dal *RGPD* e,
-         per quanto di competenza, degli obblighi afferenti alla
-         verifica dell’identità del soggetto cui si rilascia tale
-         identità digitale;
+      rispetto di tutti gli obblighi di legge derivanti dal *RGPD* e,
+      per quanto di competenza, degli obblighi afferenti alla
+      verifica dell’identità del soggetto cui si rilascia tale
+      identità digitale;
 
    b. assicurarsi che i trattamenti dei dati da parte dei *gestori*
-         siano disciplinati da un contratto o da altro atto giuridico ai
-         sensi dell’art. 28 del *RGPD*;
+      siano disciplinati da un contratto o da altro atto giuridico ai
+      sensi dell’art. 28 del *RGPD*;
 
    c. fornire le istruzioni necessarie ai *gestori* per svolgere
-         l’attività cui sono designati nel rispetto della normativa
-         vigente in materia e dei vincoli giuridici derivanti
-         dall’accordo stipulato con l’\ *organizzazione*;
+      l’attività cui sono designati nel rispetto della normativa
+      vigente in materia e dei vincoli giuridici derivanti
+      dall’accordo stipulato con l’\ *organizzazione*;
 
    d. assicurarsi che i *gestori* siano consapevoli delle conseguenze
-         penali derivanti dal furto di identità;
+      penali derivanti dal furto di identità;
 
    e. assicurarsi che i *gestori* siano consapevoli che le credenziali
-         loro fornite sono strettamente personali e che rispondono delle
-         conseguenze del loro utilizzo improprio;
+      loro fornite sono strettamente personali e che rispondono delle
+      conseguenze del loro utilizzo improprio;
 
    f. assicurarsi che i *gestori* siano consapevoli che le operazioni
-         effettuate sono tracciate;
+      effettuate sono tracciate;
 
    g. assicurarsi che i *gestori* siano consapevoli del divieto assoluto
-         di operare o avere le credenziali sia in qualità di *utente di
-         governo* che di *utente di gestione*;
+      di operare o avere le credenziali sia in qualità di *utente di
+      governo* che di *utente di gestione*;
 
    h. rendere disponibile online un servizio che consenta ai *gestori*
-         di revocare immediatamente le proprie credenziali, modificare
-         la password, verificare le operazioni effettuate con le proprie
-         credenziali;
+      di revocare immediatamente le proprie credenziali, modificare
+      la password, verificare le operazioni effettuate con le proprie
+      credenziali;
 
    i. acquisire l’impegno formale dell’\ *organizzazione* di garantire
-         che nessun operatore possa operare sia in qualità di *utente di
-         governo* sia di *utente di gestione* e, per quanto di
-         competenza, che le credenziali dei *gestori* siano utilizzate
-         esclusivamente dai legittimi titolari;
+      che nessun operatore possa operare sia in qualità di *utente di
+      governo* sia di *utente di gestione* e, per quanto di
+      competenza, che le credenziali dei *gestori* siano utilizzate
+      esclusivamente dai legittimi titolari;
 
    j. acquisire l’impegno formale dell’organizzazione a richiedere
-         l’immediata revoca delle credenziali dei *gestori* nel caso in
-         cui abbia rilevato un utilizzo promiscuo delle stesse ovvero
-         nel caso in cui il titolare della stessa lasci
-         l’organizzazione;
+      l’immediata revoca delle credenziali dei *gestori* nel caso in
+      cui abbia rilevato un utilizzo promiscuo delle stesse ovvero
+      nel caso in cui il titolare della stessa lasci
+      l’organizzazione;
 
    k. acquisire la presa d’atto e l’accettazione da parte
-         dell’organizzazione in merito al divieto assoluto di dotare il
-         medesimo soggetto di *utenza di governo* e di *utenza di
-         gestione*;
+      dell’organizzazione in merito al divieto assoluto di dotare il
+      medesimo soggetto di *utenza di governo* e di *utenza di
+      gestione*;
 
    l. inviare all’\ *organizzazione* via posta elettronica certificata
-         una comunicazione mensile con cui sono comunicati i codici
-         fiscali dei soggetti cui è stata rilasciata l’\ *identità
-         digitale per uso professionale per la persona giuridica*, la
-         data di rilascio, l’evidenza delle identità rilasciate nel
-         periodo, l’indicazione dei *gestori* che hanno concorso al
-         rilascio, nonché quelle cui sono state rilasciate tutte le
-         utenze di gestione e dell’utenza di governo attualmente attive.
+      una comunicazione mensile con cui sono comunicati i codici
+      fiscali dei soggetti cui è stata rilasciata l’\ *identità
+      digitale per uso professionale per la persona giuridica*, la
+      data di rilascio, l’evidenza delle identità rilasciate nel
+      periodo, l’indicazione dei *gestori* che hanno concorso al
+      rilascio, nonché quelle cui sono state rilasciate tutte le
+      utenze di gestione e dell’utenza di governo attualmente attive.
 
 .. _`art.08`:
 Rapporti fra le parti
