@@ -284,12 +284,12 @@ Rapporti fra le parti
    contenere:
 
    a. i nominativi dei soggetti dell’\ *organizzazione* che hanno il
-         potere di autorizzare il rilascio e la revoca delle credenziali
-         dei *gestori* e le modalità con cui tali richieste devono
-         pervenire all’IdP. Tali modalità, devono assicurare
-         l’integrità, l’autenticità, il non ripudio, la tracciabilità e
-         la conservazione delle richieste per il periodo di cui all’art.
-         7, comma 8, del DPCM;
+      potere di autorizzare il rilascio e la revoca delle credenziali
+      dei *gestori* e le modalità con cui tali richieste devono
+      pervenire all’IdP. Tali modalità, devono assicurare
+      l’integrità, l’autenticità, il non ripudio, la tracciabilità e
+      la conservazione delle richieste per il periodo di cui all’art.
+      7, comma 8, del DPCM;
 
    b. un indirizzo di posta elettronica certificata
          dell’\ *organizzazione*;
@@ -311,20 +311,20 @@ Rilascio e funzioni dell’utenza di governo e di gestione
    gestione* al fine di:
 
    a. visualizzare l’elenco delle identità digitale uso professionale
-         per la persona giuridica rilasciate in favore della propria
-         organizzazione;
+      per la persona giuridica rilasciate in favore della propria
+      organizzazione;
 
    b. richiedere la revoca delle *identità digitale uso professionale
-         per la persona giuridica* rilasciate in favore della propria
-         organizzazione;
+      per la persona giuridica* rilasciate in favore della propria
+      organizzazione;
 
    c. rendere disponibile l’elenco dei soggetti eleggibili ad ottenere
-         l’identità digitale uso professionale per la persona giuridica
-         indicandone il codice fiscale e l’indirizzo di posta
-         elettronica del soggetto;
+      l’identità digitale uso professionale per la persona giuridica
+      indicandone il codice fiscale e l’indirizzo di posta
+      elettronica del soggetto;
 
    d. visualizzare l’elenco di cui alla precedente lettera c con
-         possibilità di revoca.
+      possibilità di revoca.
 
 3. L’\ *utenza di gestione* è utilizzabile per l’accesso al sistema di
    gestione al fine di:
@@ -332,37 +332,37 @@ Rilascio e funzioni dell’utenza di governo e di gestione
    e. visualizzare l’elenco di cui al precedente comma 2 lettera c;
 
    f. inserire i dati identificativi del soggetto per il quale si sta
-         operando la verifica dell’identità a condizione che tale
-         soggetto sia nell’elenco di cui al precedente comma 2 lettera
-         c. I dati da inserire sono: nome, cognome, data e luogo di
-         nascita, sesso, codice fiscale, numero seriale della Tessera
-         Sanitaria ovvero della Tessera del Codice Fiscale, tipo e
-         numero del documento di riconoscimento, numero di cellulare con
-         prefisso preceduto dal carattere “``+``” (es. `+39123456789`), un
-         numero di almeno tre cifre (*codice di controllo*) scelte dal
-         soggetto. Tale numero non può essere costituito da tre numeri
-         identici. Sono ammessi i seguenti documenti di riconoscimento:
-         carta di identità, passaporto, patente. L’indirizzo di posta
-         elettronica del soggetto è quello fornito al comma 2, lettera
-         c e non è modificabile dall’\ *utente di gestione*.
+      operando la verifica dell’identità a condizione che tale
+      soggetto sia nell’elenco di cui al precedente comma 2 lettera
+      c. I dati da inserire sono: nome, cognome, data e luogo di
+      nascita, sesso, codice fiscale, numero seriale della Tessera
+      Sanitaria ovvero della Tessera del Codice Fiscale, tipo e
+      numero del documento di riconoscimento, numero di cellulare con
+      prefisso preceduto dal carattere “``+``” (es. ``+39123456789``), un
+      numero di almeno tre cifre (*codice di controllo*) scelte dal
+      soggetto. Tale numero non può essere costituito da tre numeri
+      identici. Sono ammessi i seguenti documenti di riconoscimento:
+      carta di identità, passaporto, patente. L’indirizzo di posta
+      elettronica del soggetto è quello fornito al comma 2, lettera
+      c e non è modificabile dall’\ *utente di gestione*.
 
    g. dichiarare di aver ottemperato alla verifica dell’identità del
-         soggetto in ottemperanza alla procedura prevista;
+      soggetto in ottemperanza alla procedura prevista;
 
    h. visualizzare l’elenco dei soggetti per i quali ha effettuato la
-         verifica dell’identità e la data della stessa.
+      verifica dell’identità e la data della stessa.
 
 .. _`art.10`:
 Token di autorizzazione
 -----------------------
 
 1. Il *token di autorizzazione* è il risultato dell’algoritmo di hash
-      SHA-256 della stringa di dati contenente i dati personali del
-      soggetto cui rilasciare l’\ *identità digitale uso professionale
-      per la persona giuridica*, un *token* costituito da una stringa
-      alfanumerica casuale di cinque caratteri e il *codice di
-      controllo* di cui al precedente :ref:`art. 9 <art.09>`,
-      comma 3, lettera b. Il contenuto di tale stringa è il seguente:
+   SHA-256 della stringa di dati contenente i dati personali del
+   soggetto cui rilasciare l’\ *identità digitale uso professionale
+   per la persona giuridica*, un *token* costituito da una stringa
+   alfanumerica casuale di cinque caratteri e il *codice di
+   controllo* di cui al precedente :ref:`art. 9 <art.09>`,
+   comma 3, lettera b. Il contenuto di tale stringa è il seguente:
 
 .. admonition:: exmaple
   :class: admonition-example display-page
@@ -382,15 +382,15 @@ Sistema di gestione
 10. Il *sistema di gestione* deve garantire:
 
     d. la sicurezza del trattamento dei dati ai sensi dell’articolo 32
-          del RGPD;
+       del RGPD;
 
     e. la tracciabilità delle operazioni effettuate con le utenze dei
-          *gestori*, l’indirizzo IP dal quale sono state effettuate, la
-          loro collocazione temporale e la loro conservazione per il
-          periodo di cui all’art. 7, comma 8, del DPCM;
+       *gestori*, l’indirizzo IP dal quale sono state effettuate, la
+       loro collocazione temporale e la loro conservazione per il
+       periodo di cui all’art. 7, comma 8, del DPCM;
 
     f. l’impossibilità per l’\ *IdP* di accedere ai dati di cui
-          all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
+       all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
 
 11. Il *sistema di gestione*, a seguito della dichiarazione di cui
     all’\ :ref:`art. 9 <art.09>`, comma 3, lettera c:
@@ -398,9 +398,9 @@ Sistema di gestione
     g. invia al titolare il *token* via sms o via email;
 
     h. rende disponibile all’IdP il *token* *di autorizzazione*
-          all’emissione dell’identità digitale e, al buon esito
-          dell’operazione, distrugge il *codice di controllo* di cui
-          all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
+       all’emissione dell’identità digitale e, al buon esito
+       dell’operazione, distrugge il *codice di controllo* di cui
+       all’\ :ref:`art. 9 <art.09>`, comma 3, lettera b.
 
 12. L’\ *organizzazione* deve garantire adeguata protezione delle
     stazioni di lavoro utilizzate per accedere al *sistema di gestione*
@@ -415,24 +415,24 @@ Rilascio dell’identità
 ----------------------
 
 1. Al fine di ottenere l’\ *identità digitale per uso professionale per la persona giuridica*,
-      l’interessato, dopo essere stato autorizzato dall’\ *utente di gestione*:
+   l’interessato, dopo essere stato autorizzato dall’\ *utente di gestione*:
 
    a. accede al servizio di rilascio dell’identità reso disponibile
-         dall’\ *IdP* su canale protetto su cui inserisce il *token*
-         ricevuto ai sensi dell’:ref:`art. 11 <art.11>`, comma 3, lettera a,
-         i dati personali e il *codice di controllo* di cui all’:ref:`art. 9 <art.09>`,
-         comma 3, lettera b;
+      dall’\ *IdP* su canale protetto su cui inserisce il *token*
+      ricevuto ai sensi dell’:ref:`art. 11 <art.11>`, comma 3, lettera a,
+      i dati personali e il *codice di controllo* di cui all’:ref:`art. 9 <art.09>`,
+      comma 3, lettera b;
 
    b. il servizio di rilascio dell’identità dell’\ *IdP*, dopo aver
-         ricalcolato il *token di autorizzazione* con i dati inseriti
-         dall’interessato e averne verificata la corrispondenza con
-         quanto ricevuto dal *sistema di gestione* ai sensi dell’:ref:`art. 11 <art.11>`,
-         comma 3, lettera b, provvede a rilasciare l’identità
-         digitale inviando almeno una delle credenziali SPID via sms o
-         email ai recapiti ottenuti ai sensi della precedente lettera a.
-         In ogni caso, invia all’indirizzo email dichiarato dall’interessato
-         all’\ *utente di governo* una comunicazione in cui si informa di
-         aver rilasciato l’identità digitale.
+      ricalcolato il *token di autorizzazione* con i dati inseriti
+      dall’interessato e averne verificata la corrispondenza con
+      quanto ricevuto dal *sistema di gestione* ai sensi dell’:ref:`art. 11 <art.11>`,
+      comma 3, lettera b, provvede a rilasciare l’identità
+      digitale inviando almeno una delle credenziali SPID via sms o
+      email ai recapiti ottenuti ai sensi della precedente lettera a.
+      In ogni caso, invia all’indirizzo email dichiarato dall’interessato
+      all’\ *utente di governo* una comunicazione in cui si informa di
+      aver rilasciato l’identità digitale.
 
 .. _`art.13`:
 Livello delle credenziali dei gestori
