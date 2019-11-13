@@ -166,8 +166,7 @@ Attributo non professionale
    estensione SAML nell’\ *authentication request*:
 
 .. code-block:: xml
-   <samlp:Extensions
-         xmlns:spid="https://spid.gov.it/saml-extensions">
+   <samlp:Extensions xmlns:spid="https://spid.gov.it/saml-extensions">
        <spid:Purpose>P</spid:Purpose>
    </samlp:Extensions>
 
@@ -292,10 +291,10 @@ Rapporti fra le parti
       7, comma 8, del DPCM;
 
    b. un indirizzo di posta elettronica certificata
-         dell’\ *organizzazione*;
+      dell’\ *organizzazione*;
 
    c. il nominativo e i recapiti dei rispettivi responsabili del
-         rapporto.
+      rapporto.
 
 .. _`art.09`:
 Rilascio e funzioni dell’utenza di governo e di gestione
@@ -367,8 +366,7 @@ Token di autorizzazione
 .. admonition:: exmaple
   :class: admonition-example display-page
 
-  .. code-block::
-    nome_cognome_codiceFiscale_numeroDocumento_indirizzoMail_numeroCellulare_token_codiceControllo 
+  ``nome_cognome_codiceFiscale_numeroDocumento_indirizzoMail_numeroCellulare_token_codiceControllo``
 
 
 .. _`art.11`:
@@ -405,10 +403,10 @@ Sistema di gestione
 12. L’\ *organizzazione* deve garantire adeguata protezione delle
     stazioni di lavoro utilizzate per accedere al *sistema di gestione*
     adeguandosi quantomeno a quanto prescritto dalla Circolare №2/2017
-    del 28 aprile 2017 recante “*Misure minime di sicurezza ict per le
-    pubbliche amministrazioni*”. Dette stazioni di lavoro sono
+    del 28 aprile 2017 recante *Misure minime di sicurezza ict per le
+    pubbliche amministrazioni*. Dette stazioni di lavoro sono
     accedute dai *gestori* previa autenticazione con credenziali senza
-    particolari privilegi (*non* `Administrator`/`root`).
+    particolari privilegi (*non* ``Administrator``/``root``).
 
 .. _`art.12`:
 Rilascio dell’identità
