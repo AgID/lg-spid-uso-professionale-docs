@@ -150,20 +150,13 @@ Rapporti fra le parti
 Attributo non professionale
 ---------------------------
 
-1. L’\ *identità* *digitale uso professionale* contiene
-   l’attributo-estensione :code:`<Purpose>` valorizzato come ``P``.
+1. L’\ *identità* *digitale uso professionale* contiene l’attributo-estensione :code:`<Purpose>` valorizzato come ``P``.
 
-6. L’attributo oggetto del presente articolo consente ai fornitori di
-   servizi SPID di regolare l’accesso ai servizi dedicati a
-   professionisti e a persone giuridiche.
+6. L’attributo oggetto del presente articolo consente ai fornitori di servizi SPID di regolare l’accesso ai servizi dedicati a professionisti e a persone giuridiche.
 
-7. Resta in carico ai fornitori dei servizi SPID la definizione del
-   livello di autorizzazione associato alla persona fisica risultante
-   dall’\ *identità digitale uso professionale*.
+7. Resta in carico ai fornitori dei servizi SPID la definizione del livello di autorizzazione associato alla persona fisica risultante dall’\ *identità digitale uso professionale*.
 
-8. L’SP che intende far autenticare un soggetto con l’\ *identità
-   digitale uso professionale*, inserisce la seguente estensione SAML
-   nell’\ *authentication request*:
+8. L’SP che intende far autenticare un soggetto con l’\ *identità digitale uso professionale*, inserisce la seguente estensione SAML nell’\ *authentication request*:
 
    .. code-block:: xml
       <samlp:Extensions
@@ -181,23 +174,25 @@ Ulteriori definizioni
 
 1. Negli articoli che seguono si intende per:
 
-   utenza di governo
-      *identità digitale uso professionale per la persona giuridica*
-      abilitata per l’accesso al *sistema di gestione* delle identità;
+   .. glossary::
 
-   utente di governo
-      uno o più soggetti dotati di *utenza di governo*;
+      utenza di governo
+         *identità digitale uso professionale per la persona giuridica*
+         abilitata per l’accesso al *sistema di gestione* delle identità;
 
-   utenza di gestione
-      identità digitale uso professionale per la
-      persona giuridica* abilitata per l’accesso al *sistema di
-      gestione* delle identità;
+      utente di governo
+         uno o più soggetti dotati di *utenza di governo*;
 
-   utente di gestione
-      uno o più soggetti dotati di *utenza di gestione*;
+      utenza di gestione
+         identità digitale uso professionale per la
+         persona giuridica* abilitata per l’accesso al *sistema di
+         gestione* delle identità;
 
-   gestori
-      i soggetti dotati di *utenze di governo o di gestione*.
+      utente di gestione
+         uno o più soggetti dotati di *utenza di gestione*;
+
+      gestori
+         i soggetti dotati di *utenze di governo o di gestione*.
 
 Si applicano, inoltre, le definizioni di cui all’:ref:`articolo 2 <art.02>`.
 
