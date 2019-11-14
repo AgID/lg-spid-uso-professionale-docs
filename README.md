@@ -5,6 +5,6 @@ Le presenti linee guida normano le modalità di rilascio delle identità digital
 
 ## Link al documento e consultazione.
 
-Link al documento *Docs Italia*: https://lg-spid-uso-professionale.readthedocs.io
+Link al documento *Docs Italia*	•	\ https://lg-spid-uso-professionale.readthedocs.io
 
-Link per commenti *Forum Italia*: https://forum.italia.it/c/documenti-in-consultazione/lg-spid-uso-professionale
+Link per commenti *Forum Italia*	•	\ https://forum.italia.it/c/documenti-in-consultazione/lg-spid-uso-professionale
