@@ -3,10 +3,10 @@ Linee guida per il rilascio dell’identità digitale per uso professionale
 
 .. highlights ::
 
-  Linee guida contenenti regole tecniche ex art. 71 del CAD
-
+  Linee guida AgID
+  
 .. Note::
-   Linee guida contenenti regole tecniche ex art. 71 del CAD
+   Linee guida AgID
 
 
 .. toctree::
