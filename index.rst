@@ -15,3 +15,7 @@ Linee guida per il rilascio dell’identità digitale per uso professionale
    :caption: Indice dei contenuti
 
    LLGG_SPID_uso-professionale.rst
+
+.. forum_italia::
+   :topic_id: 12040
+   :scope: document
