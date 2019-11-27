@@ -449,8 +449,3 @@ Entrata in vigore
 1. Al fine di consentire ai fornitori di servizi SPID e ai gestori di
    identità digitale di predisporre quanto necessario, il presente
    provvedimento entra in vigore a decorrere dal 1 febbraio 2020.
-
-
-.. forum_italia::
-   :topic_id: 12040
-   :scope: document
